@@ -1,0 +1,24 @@
+{
+	"app_name": "Super Cool App",
+	"app_version": "1.0.1",
+	"description": "This is a really cool plugin for doing things.",
+	"notice_msg": "This plugin is no longer being maintained!",
+	"gh_author": "Archmonger",
+	"repository_url": "https://github.com/Archmonger/Conreq",
+	"homepage_url": "https://example.com",
+	"support_url": "https://example.com",
+	"donation_url": "https://example.com",
+	"env_variables": [
+		["ENABLE_FROGS", "True"],
+		["GLUE_COUNT", "123"]
+	],
+	"categories": [5421],
+	"development_stage": "beta",
+	"mobile_compatible": true,
+	"min_conreq_version": "1.2.3",
+	"tested_conreq_version": "2.0.0",
+	"optional_apps": ["imdb_content_discovery"],
+	"required_apps": ["tmdb_content_discovery"],
+	"incompatible_apps": ["trakt_content_discovery"],
+	"incompatible_app_categories": [5421, 6666]
+}
