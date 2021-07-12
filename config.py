@@ -7,3 +7,6 @@ INIT_COMMANDS = [  # Executable name of any Django admin management commands to 
     ["run_huey", "--quiet"],
     ["clean_db", "-v"],
 ]
+PRECONFIGURE_COMMANDS = []
+LOGIN_TEMPLATE = ""
+BASE_TEMPLATE = ""

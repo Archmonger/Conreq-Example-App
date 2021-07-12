@@ -17,6 +17,7 @@
 	"mobile_compatible": true,
 	"min_conreq_version": "1.2.3",
 	"tested_conreq_version": "2.0.0",
+	"max_conreq_version": "3.0.0",
 	"optional_apps": ["imdb_content_discovery"],
 	"required_apps": ["tmdb_content_discovery"],
 	"incompatible_apps": ["trakt_content_discovery"],

@@ -1,3 +1,5 @@
+from django.urls import reverse
+
 USER_NAVTABS = [
     {
         "name": "Name Me",
